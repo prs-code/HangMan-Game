@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color:#19282F;
+    color: #fff;
+    text-align: center;
+}
+body h1 {
+    margin: 20px auto;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+.letters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+.letters div {
+    color: #301B3F;
+    background-color: #B4A5A5;
+    margin: 8px;
+    width: 40px;
+    height: 30px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.letters div:hover{
+    background-color:#3C415C;
+    color: #fff;
+}
+.letters div.used {
+    opacity: 0.5;
+    color: #fff;
+}
+#image {
+    margin-top: 30px;
+}
+#image img {
+    background-color: #fff;
+    padding: 20px;
+}
+#clue p {
+    height: 100px;
+}
+p {
+    margin: 20px;
+    font-size: 3rem;
+    letter-spacing: 15px;
+}
+span {
+    font-size: 62px;
+    display: none;
+    text-decoration:underline;
+}
